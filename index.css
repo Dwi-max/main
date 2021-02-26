@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: url('./cccc.png');
+    background-size: cover;
+}
+
+nav {
+    background-color: rgb(15, 15, 15);
+    width: 50%;
+    height: 100vh;
+    margin-left: -540px;
+    transition: all ease-in-out .5s;
+}
+
+.nav h1 {
+    font-family: 'Josefin Sans',
+        sans-serif;
+    font-weight: 200;
+    position: relative;
+    left: 250px;
+    height: 50px;
+    border-bottom: 1px solid white;
+    width: 90%;
+    text-align: center;
+    transform: rotate(90deg);
+    top: -160px;
+    color: white;
+    font-size: 30px;
+    cursor: default;
+}
+
+.hamburger {
+    position: absolute;
+    margin-left: 13px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 30px;
+    margin-bottom: 5px;
+    background-color: white;
+    height: 5px;
+}
+
+.links {
+    list-style-type: none;
+    width: 30%;
+    display: flex;
+    margin-left: 13px;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-around;
+}
+
+.links li {
+    width: 70%;
+    border-bottom: 1px solid white;
+
+}
+
+.links li a {
+    font-family: 'poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.links li a:hover {
+    color: black;
+
+}
+
+
+/* SEARCH ENGINE */
+
+.gsc-control-cse {
+    width: 70% !important;
+    padding-top: 80px !important;
+    border-color: transparent !important;
+    background: transparent !important;
+}
+
+.gsc-control-cse:focus {
+    outline: none !important;
+}
+
+.active {
+    margin-left: 0;
+}
