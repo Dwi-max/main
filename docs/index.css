@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
+    transition: all ease-in-out.5s;
 }
 
 body {
@@ -36,6 +36,8 @@ nav {
 }
 
 .hamburger {
+    width: 30px;
+    height: 30px;
     position: absolute;
     margin-left: 13px;
     margin-top: 13px;
@@ -43,6 +45,7 @@ nav {
 }
 
 .hamburger div {
+    pointer-events: none;
     width: 30px;
     margin-bottom: 5px;
     background-color: white;
@@ -75,7 +78,7 @@ nav {
 }
 
 .links li a:hover {
-    color: black;
+    color: red;
 
 }
 
